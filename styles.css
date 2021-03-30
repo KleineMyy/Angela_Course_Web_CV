@@ -1,0 +1,119 @@
+body{
+margin: 0;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+h1{
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+  font-family: 'Sacramento', cursive;
+  color: #206a5d;
+  line-height: 2;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+color: #206a5d;
+font-size: 2.5rem;
+font-weight: normal;
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+color: #11999e;
+}
+p{
+    line-height: 2;
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 40px;
+}
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #01c5c4;
+}
+.middle-container{
+  padding-bottom: 100px;
+  margin-top:50px;
+}
+.bottom-container{
+  background-color: #01c5c4;
+  padding-bottom: 40px;
+  padding-top: 50px;
+}
+.top-cloud{
+position: absolute;
+right: 300px;
+top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.May-picture{
+  height: 200px;
+  width: 200px;
+}
+.intro{
+  width: 30%;
+  margin:auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.programming-skills{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+.Molecular-Biology-Skills{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  border: none;
+  background-image: linear-gradient(#01DEDD 0%, #01c5c4 100%);
+  padding: 10px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  position: relative;
+  top: 30px;
+}
+.footer-link{
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #206a5d;
+}
+.credit-tag{
+    color: #eaf6f6;
+    padding: 20px 0;
+}
